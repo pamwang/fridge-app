@@ -26,6 +26,9 @@ This app features the following elements:
 <h1>APP TECHNOLOGIES</h1>
 <p>
 As of today, Saturday. August. 29th. 2020 I plan on using HTML, CSS, Javascript, and ReactNative to make the app. More details to come.
+
+<h7>Technological Acknowledgements:</h7>
+
 </p>
 
 <h1>ACKNOWLEDGEMENTS</h1>
