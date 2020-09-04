@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import './searchBar.css';
+import './images/searchicon.png'
 import { render } from "@testing-library/react";
 
 

@@ -1,3 +1,4 @@
+
 input[type=text] {
   width: 15em;
   box-sizing: border-box;
@@ -5,9 +6,10 @@ input[type=text] {
   border-radius: 0.2em;
   font-size: calc(10px + 0.7vmin);
   background-color: white;
-  /*background-image: url('searchicon.png');*/
+  background-image: url('./images/searchicon.png');
   background-position: 0.5em 0.5em; 
   background-repeat: no-repeat;
+  background-size: 1em 1em;
   padding: 0.5em 1em 0.5em 2em;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
