@@ -1,39 +1,25 @@
-import React from 'react';
-import './App.css';
-import logo from './logo.png';
+//import React from 'react';
+import React, { Components } from "react";
+import ReactDOM from 'react-dom';
+import Searchbar from './searchBar.js';
+import Title from './title.js';
 
-/*function App() {
+function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Title />
+        <Searchbar />
       </header>
-    </div>
+    </div >
   );
-}*/
 
-function helloworld(){
-return(
-  <div className = "App">
-    <header className = "App-header">
-    <img src={logo} className="App-logo" alt="logo" />
-      <p>fridge-detective</p>
-      <input type="text" name="search" placeholder="Search..."></input>
-    </header>
-  </div>
-);
 }
 
-export default helloworld;
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
+);
+
+export default App;
 

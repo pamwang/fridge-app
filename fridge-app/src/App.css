@@ -50,7 +50,7 @@ p{
 }
 
 input[type=text] {
-  width: 10em;
+  width: 20em;
   box-sizing: border-box;
   border: 0.1em solid #ccc;
   border-radius: 0.2em;
@@ -65,7 +65,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-  width: 60%;
+  width: 60em;
 }
 
 img {
