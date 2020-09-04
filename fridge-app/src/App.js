@@ -3,6 +3,7 @@ import React, { Components } from "react";
 import ReactDOM from 'react-dom';
 import Searchbar from './searchBar.js';
 import Title from './title.js';
+import './App.css';
 
 function App() {
   return (

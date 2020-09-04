@@ -1,7 +1,6 @@
 import React, { Components } from "react";
 import ReactDOM from 'react-dom';
-import Searchbar from './searchBar.js'
-import './App.css';
+import './title.css';
 import logo from './images/logo.png';
 
 
