@@ -7,8 +7,8 @@ import { render } from "@testing-library/react";
 
 function Searchbar() {
     return (
-        <div className = 'searchBar'>
-            <input type="text" name="search" placeholder="Search..."></input>
+        <div className='searchBar'>
+            <span contentEditable = "true" placeholder = "Search..."></span>
         </div>
     )
 }
