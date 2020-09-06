@@ -1,0 +1,8 @@
+.ResultsPage{
+    background-color: #f0f7dc;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+}

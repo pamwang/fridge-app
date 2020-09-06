@@ -1,11 +1,12 @@
-//import React from 'react';
 import React, { Components } from "react";
 import ReactDOM from 'react-dom';
 import Searchbar from './searchBar.js';
 import Title from './title.js';
 import './App.css';
 
-function App() {
+import SearchResultsPage from './searchResultsPage.js';
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -15,6 +16,12 @@ function App() {
     </div >
   );
 
+}*/
+
+function App() {
+  return (
+    <SearchResultsPage />
+  )
 }
 
 ReactDOM.render(

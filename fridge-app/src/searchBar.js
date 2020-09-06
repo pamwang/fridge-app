@@ -8,8 +8,7 @@ import { render } from "@testing-library/react";
 function Searchbar() {
     return (
         <div className='searchBar'>
-
-            <span className='searchfield' onclick='clearText()' contentEditable="true"></span>
+            <span className='searchfield' contentEditable="true"></span>
         </div>
     )
 }

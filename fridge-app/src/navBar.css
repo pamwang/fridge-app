@@ -1,0 +1,23 @@
+.navBar{
+    background-color: #d5e8a0;
+    font-size: calc(10px + 0.7vmin);
+    min-height: 1vm;
+    width: 100%;
+    overflow: auto;
+}
+
+.navBar-logo{
+    height: 3em;
+    width: 3em;
+    pointer-events: none;
+    margin-top: 1em;
+    align-items:flex-start;
+    display: inline-flex;
+    float: left;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+}
+
+.navBar-search{
+    float: left;
+}
