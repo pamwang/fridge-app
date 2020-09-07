@@ -1,25 +1,26 @@
 .navBar{
-    background-color: #d5e8a0;
+    background-color: #789626;
     font-size: calc(10px + 0.7vmin);
     min-height: 1vm;
     width: 100%;
-    overflow: auto;
+    align-self: center;
+    border: 0.1em solid rgb(167, 167, 167);
+    justify-items: center;
 }
 
 .navBar-logo{
-    height: 3em;
-    width: 3em;
+    display: flex;
+    height: 2em;
+    width: 2em;
     pointer-events: none;
-    margin-top: 1em;
+    margin-top: 0em;
     align-items:flex-start;
-    display: inline-flex;
     float: left;
-    padding-bottom: 1em;
-    padding-left: 0.5em;
+    padding: 1em 0.5em 0.5em 1em ;
+    vertical-align:center;
 }
 
 .navBar-search{
     float: left;
-    margin-top: 1.5rem;
-    padding-left: 1em;
+    padding: 1em 0em 0.5em 0.5em;
 }
