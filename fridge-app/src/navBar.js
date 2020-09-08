@@ -4,6 +4,7 @@ import Searchbar from './searchBar.js';
 import logo from './images/logo.png';
 import './navBar.css';
 
+
 function navBar() {
     return (
         <div className="navBar">

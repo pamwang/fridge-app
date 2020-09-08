@@ -6,7 +6,7 @@ import './App.css';
 
 import SearchResultsPage from './searchResultsPage.js';
 
-/*function App() {
+function App1() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,7 +16,7 @@ import SearchResultsPage from './searchResultsPage.js';
     </div >
   );
 
-}*/
+}
 
 function App() {
   return (
