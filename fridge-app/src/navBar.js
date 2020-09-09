@@ -8,7 +8,7 @@ import './navBar.css';
 function navBar() {
     return (
         <div className="navBar">
-            <img src={logo} className="navBar-logo" alt="logo" />
+                <img src={logo} className="navBar-logo" alt="logo"></img>
             <div className="navBar-search">
                 <Searchbar />
             </div>

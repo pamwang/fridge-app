@@ -6,12 +6,15 @@ import App from './App.js';
 
 function Title() {
     return (
-        <div>
-            <img src={logo} className="App-logo" alt="logo"/>
+        <body>
+            <a id='App-logo-link' href='./App.js'>
+                <img src={logo} id="App-logo" alt="logo">
+                </img>
+            </a>
             <p>fridge-detective</p>
-        </div>
+        </body>
 
     )
 }
-  
+
 export default Title;
