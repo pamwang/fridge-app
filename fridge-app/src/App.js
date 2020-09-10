@@ -1,6 +1,7 @@
 import React, { Components } from "react";
 import ReactDOM from 'react-dom';
 import Searchbar from './searchBar.js';
+import SearchbarInput from './searchBar-input.js';
 import Title from './title.js';
 import './App.css';
 
@@ -11,7 +12,7 @@ function App1() {
     <div className="App">
       <header className="App-header">
         <Title />
-        <Searchbar />
+        <SearchbarInput />
       </header>
     </div >
   );
@@ -25,9 +26,9 @@ function App() {
 }
 
 ReactDOM.render(
-  <App />,
+  <App1 />,
   document.getElementById('root')
 );
 
-export default App;
+export default App1;
 

@@ -1,0 +1,31 @@
+.searchfield {
+    min-width:15em;
+    max-width:60em;
+    font-size: calc(10px + 0.7vmin);
+    box-sizing: border-box;
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+    display: inline-block; 
+    font-size: calc(10px + 0.7vmin);
+    background-color: white;
+    background-image: url('./images/searchicon.png');
+    background-position: 0.5em 0.5em; 
+    background-repeat: no-repeat;
+    background-size: 1em 1em;
+    padding: 0.5em 1em 0.5em 2em;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  
+  }
+  .searchfield:focus {
+    width: 60em;
+    outline:0;
+  }
+  
+  @media screen and (max-width: 960px){
+  
+    .searchfield:focus{
+      width: 25em;
+    }
+  }
+  
